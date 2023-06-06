@@ -1,6 +1,4 @@
-CREATE DATABASE flowervisa;
 
-USE flowervisa;
 
 CREATE TABLE `admins` (
   `id` INT(100) NOT NULL,
