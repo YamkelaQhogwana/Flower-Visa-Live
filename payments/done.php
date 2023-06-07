@@ -11,8 +11,8 @@
     <div class="circle">
     <div class="tick"></div>
     </div>
-    <h1>YOUR ORDER IS ON ITS WAY!</h1>
-    <p>WE WILL SEND AN EMAIL SHORTLY WITH DELIVERY DETAILS</p>
+    <h1>THANK YOU FOR ENTERTING YOUR PAYMENT DETAILS!</h1>
+    <p><a href="../cart.php">BACK TO CART</a></p>
     <a href="../index.php#shop">CONTINUE SHOPPING</a>
   </div>
 </body>
