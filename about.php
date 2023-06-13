@@ -30,7 +30,7 @@ if(isset($_SESSION['user_id'])){
 <section class="about">
    <div class="row">
       <div class="image">
-         <img src="images/contact.gif" alt="">
+         <img src="images/about-img.svg" alt="">
       </div>
 
       <div class="content">
