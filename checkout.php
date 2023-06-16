@@ -110,9 +110,7 @@ if(isset($_POST['order'])){
             <span>PAYMENT METHOD</span>
             <select name="method" class="box" required>
                <option value="cash on delivery">CASH ON DELIVERY</option>
-               <option value="credit card">CREDIT CARD</option>
-               <option value="paytm">PAY TO MASTERCARD</option>
-               <option value="paypal">PAYPAL</option>
+               <option value="eft">EFT</option>
             </select>
          </div>
          <div class="inputBox">
@@ -141,7 +139,7 @@ if(isset($_POST['order'])){
          </div>
       </div>    
   <input type="submit" name="order" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>" value="ORDER">
-  <a href="payments/payments.php" class="btn" id="pay-button">ENTER PAYMENT DETAILS</a>
+  <a href="eft.html" class="btn" id="pay-button">PROCEED TO PAYMENT</a>
    </form>
 </section>
 <?php include 'components/footer.php'; ?>
